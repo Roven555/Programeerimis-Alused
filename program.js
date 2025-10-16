@@ -1,3 +1,5 @@
+// COUNTER PROGRAM
+
  const decreaseBtn = document.getElementById("decreasebtn");
  const resetBtn = document.getElementById("resetBtn")
 const increaseBtn = document.getElementById("increaseBtn")
@@ -12,7 +14,3 @@ decreaseBtn.onclick = function(){
      count--;
     countLabel.textContent = count;
 }
-resetBtn.onclick = function (){
-    count = 0;
-    countLabel.textContent = count;
-    }
