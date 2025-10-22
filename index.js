@@ -1,18 +1,13 @@
- const decreaseBtn = document.getElementById("decreasebtn");
- const resetBtn = document.getElementById("resetBtn")
-const increaseBtn = document.getElementById("increaseBtn")
-const countLabel = document.getElementById("countLabel")
-let count = 0;
+// Ask the user for two integers
+let a = prompt("a = ?");
+let b = prompt("b = ?");
 
-increaseBtn.onclick = function(){
-    count++;
-    countLabel.textContent = count;
-}
-decreaseBtn.onclick = function(){
-     count--;
-    countLabel.textContent = count;
-}
-resetBtn.onclick = function (){
-    count = 0;
-    countLabel.textContent = count;
-    }
+// Convert the input strings to integers
+a = parseInt(a);
+b = parseInt(b);
+
+// Calculate the sum
+let sum = a + b;
+
+// Display the result on the page
+document.getElementById("result").textContent = "The sum is: " + sum;
