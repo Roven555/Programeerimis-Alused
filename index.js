@@ -1,32 +1,28 @@
-/*
-let text = "fmdsgormitsdohmsofghsfighmspfgmhm";
-let length = text.length
+const fullName = "Roven Piho";
+
+//let firstName = fullName.slice(0, 2);
+//let lastName = fullName.slice(4, 8);
+
+//let firstChar = fullName.slice(0, 1);
+//let lastChar = fullName.slice(-1)
+
+
+/*let firstName = fullName.slice(0, fullName.indexOf(" "))
+let lastName = fullName.slice(0, fullName.indexOf(" ") + 1)
 
 
 
-
-console.log(text.length) 
+console.log(firstName);
+console.log(lastName);
 */
 
-
 /*
-let text1 = "Trtehgfhkm gfdkfk";
-let text2 = text1.toUpperCase(0);
+const email = "roven.piho@voco.ee"
 
-console.log(text1)
+let username = email.slice(0, email.indexOf("@"))
+let extension = email.slice(email.indexOf("@") +1, email.length)
+
+
+console.log(extension)
 */
 
-/*
-let text1 = "Tere Maailm!";
-let text2 = text1.toLowerCase();
-
-console.log(text2)
-*/
-
-
-/*
-let text = "Tere Maailm!";
-let result = text.repeat(4);
-
-console.log(text.result)
-*/
