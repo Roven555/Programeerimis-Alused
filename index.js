@@ -1,45 +1,22 @@
-const myCheckBox = document.getElementById("myCheckBox");
-const visaBtn = document.getElementById("visaBtn");
-const masterCardBtn = document.getElementById("masterCardBtn");
-const payPalBtn = document.getElementById("PaypalBtn");
-const mySubmit = document.getElementById("mySubmit");
-const subResult = document.getElementById("subResult");
-const paymentResult = document.getElementById("paymentResult");
+let testScore= 60;
+let letterGrade;
 
-mySubmit.onclick = function () {
-  if (myCheckBox.checked) {
-    subResult.textContent = `You are subscribed!!`;
-  } else {
-    subResult.textContent = `You are NOT subscribed`;
-  }
+switch(true){
+    case testScore >= 90:
+        letterGrade = "A";
+        break;
+        ase testScore >= 80:
+        letterGrade = "B";
+        break;
+        ase testScore >= 70:
+        letterGrade = "C";
+        break;
+        ase testScore >= 60:
+        letterGrade = "D";
+        break;
+        default:
+            letterGrade = "F"
+       
+}
 
-  if (visaBtn.checked) {
-    paymentResult.textContent = `You are paying with Visa`;
-  } else if (masterCardBtn.checked) {
-    paymentResult.textContent = `You are paying with MasterCard`;
-  } else if (payPalBtn.checked) {
-    paymentResult.textContent = `You are paying with PayPal`;
-  } else {
-    paymentResult.textContent = `You must select a payment type`;
-  }
-};
-/*
-let a = prompt("a = ?");
-let b = prompt("b = ?");
-
-a = parseInt(a);
-b = parseInt(b);
-
-let sum = a + b;
-
-document.getElementById("result").textContent = "sum on: " + sum;
-*/
-
-var a = 10;
-var b = 20;
-
-var temp = a;
-a = b;
-b = temp;
-
-document.write("a = " + a + ", b = " + b);
+console.log(letterGrade);
