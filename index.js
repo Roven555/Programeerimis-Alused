@@ -1,22 +1,32 @@
-let testScore= 90;
-let letterGrade;
+/*
+let text = "fmdsgormitsdohmsofghsfighmspfgmhm";
+let length = text.length
 
-switch(true){
-    case testScore >= 90:
-        letterGrade = "A";
-        break;
-        case testScore >= 80:
-        letterGrade = "B";
-        break;
-        case testScore >= 70:
-        letterGrade = "C";
-        break;
-        case testScore >= 60:
-        letterGrade = "D";
-        break;
-        default:
-            letterGrade = "F"
-       
-}
 
-console.log(letterGrade);
+
+
+console.log(text.length) 
+*/
+
+
+/*
+let text1 = "Trtehgfhkm gfdkfk";
+let text2 = text1.toUpperCase(0);
+
+console.log(text1)
+*/
+
+/*
+let text1 = "Tere Maailm!";
+let text2 = text1.toLowerCase();
+
+console.log(text2)
+*/
+
+
+/*
+let text = "Tere Maailm!";
+let result = text.repeat(4);
+
+console.log(text.result)
+*/
