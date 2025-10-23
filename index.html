@@ -7,12 +7,22 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <label id="countLabel">0</label><br />
-    <div>
-      <button id="decreaseBtn" class="buttons">decrease</button>
-      <button id="resetBtn" class="buttons">reset</button>
-      <button id="increaseBtn" class="buttons" >increase</button>
-    </div>
+
+    <input type="checkbox" id="myCheckBox">
+    <label for="myCheckBox">subscribe</label><br><br>
+
+   
+  <input type="radio" id="visaBtn" name="card">
+  <label for="visaBtn">Visa</label><br>
+  <input type="radio" id="masterCardBtn" name="card">
+  <label for="masterCardBtn">Mastercard</label><br>
+  <input type="radio" id="payPalBtn" name="card">
+<label for="payPalBtn">PayPal</label><br><br>
+
+<button type="submit" id="mySubmit">submit</button>
+
+<p id="subResult"></p>
+<p id="paymentResult"></p>
 
     <script src="index.js"></script>
   </body>
