@@ -1,20 +1,19 @@
-/*let username = window.prompt("Enter your username: ");
-
-username = username.trim();
-let letter = username.charAt(0);
-letter = letter.toUpperCase();
-
-let extraChars = username.slice(1);
-extraChars = extraChars.toLowerCase();
-username = letter +extraChars;
-
-console.log(username)
-no method chaining
+/*const temp = 25;
+if(temp > 0 && temp <=30){
+    console.log("the weather is GOOD")
+}
+else (temp <= 30);{
+    console.log("The weather is BAD");
+}
 */
-
 
 /*
-username = username.trim().charAt(0).toUpperCase + username.trim().slice(1).toLowerCase
-
-console.log (username)
+const isSunny = true;
+if(!isSunny){
+    console.log("It is CLOUDY")
+}
+else{
+    console.log("It is SUNNY")
+}
 */
+
