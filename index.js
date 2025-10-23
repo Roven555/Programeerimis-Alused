@@ -1,28 +1,20 @@
-const fullName = "Roven Piho";
+/*let username = window.prompt("Enter your username: ");
 
-//let firstName = fullName.slice(0, 2);
-//let lastName = fullName.slice(4, 8);
+username = username.trim();
+let letter = username.charAt(0);
+letter = letter.toUpperCase();
 
-//let firstChar = fullName.slice(0, 1);
-//let lastChar = fullName.slice(-1)
+let extraChars = username.slice(1);
+extraChars = extraChars.toLowerCase();
+username = letter +extraChars;
 
-
-/*let firstName = fullName.slice(0, fullName.indexOf(" "))
-let lastName = fullName.slice(0, fullName.indexOf(" ") + 1)
-
-
-
-console.log(firstName);
-console.log(lastName);
+console.log(username)
+no method chaining
 */
+
 
 /*
-const email = "roven.piho@voco.ee"
+username = username.trim().charAt(0).toUpperCase + username.trim().slice(1).toLowerCase
 
-let username = email.slice(0, email.indexOf("@"))
-let extension = email.slice(email.indexOf("@") +1, email.length)
-
-
-console.log(extension)
+console.log (username)
 */
-
