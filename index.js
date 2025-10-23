@@ -1,19 +1,23 @@
-let x = Number(prompt("x="));
-let y = Number(prompt("y="));
+function kontrolliVanust() {
+  let sisend = prompt("Sisesta oma vanus:");
 
-let tehe = prompt("Tehted - (a=liitmine,s=lahutamine,m=korrutamine,d=jagamine,e=astendamine,r=jääk):");
+  if (sisend === "" || isNaN(sisend)) {
+    alert("Sisend ei ole korrektne. Sisesta oma vanus.");
+    kontrolliVanust(); return;
+    
+  }
 
-let tulemus;
-let symbol;
+  let vanus = Number(sisend);
 
-
-if (tehe === "a") {
-  tulemus = x + y;
-  symbol = "+";
-} else if (tehe === "s") {
-  tulemus = x - y;
-  symbol = "-";
-} else if (tehe === "m") {
-  tulemus = x * y;
-  symbol = "*";
+  if (vanus >= 7 && vanus <= 16) {
+    alert("Sööd kell 10.");
+  } else if (vanus >= 17 && vanus <= 20) {
+    alert("Sööd kell 11.");
+  } else if (vanus >= 20 && vanus <= 125 ) {
+    alert("Sööd kell 12.");
+  } else {
+    alert("Sisend ei ole korrektne. Sisenda korrektne vanus (7-125a).");
+  }
 }
+
+kontrolliVanust();
