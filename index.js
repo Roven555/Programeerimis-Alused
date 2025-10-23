@@ -1,19 +1,23 @@
-/*const temp = 25;
-if(temp > 0 && temp <=30){
-    console.log("the weather is GOOD")
-}
-else (temp <= 30);{
-    console.log("The weather is BAD");
-}
-*/
+function kontrolliVanust() {
+  let sisend = prompt("Sisesta oma vanus:");
 
-/*
-const isSunny = true;
-if(!isSunny){
-    console.log("It is CLOUDY")
-}
-else{
-    console.log("It is SUNNY")
-}
-*/
+  if (sisend === "" || isNaN(sisend)) {
+    alert("Sisend ei ole korrektne. Sisesta oma vanus.");
+    kontrolliVanust();
+    return;
+  }
 
+  let vanus = Number(sisend);
+
+  if (vanus >= 7 && vanus <= 16) {
+    alert("Sööd kell 10.");
+  } else if (vanus >= 17 && vanus <= 20) {
+    alert("Sööd kell 11.");
+  } else if (vanus > 20) {
+    alert("Sööd kell 12.");
+  } else {
+    alert("Sisend ei ole korrektne. Sisenda korrektne vanus.");
+  }
+}
+
+kontrolliVanust();
