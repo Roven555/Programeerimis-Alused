@@ -4,18 +4,22 @@
 const minNum = 80;
 const maxNum = 90;
 const answer = Math.floor(Math.random() * (maxNum - minNum +1)) + minNum;
+let katsed = 5
 
-let vastus = window.prompt("Arva number vahemikus 80-90")
+while
+
+
+let vastus = window.prompt("Arva number vahemikus 80-90. Sul on 5 katset.")
 
 
 if(vastus = answer) {
- alert("Arvasid ära");
+ window.alert("Arvasid ära");
 } else if (vastus < answer) {
-alert("Number on natuke suurem!");
+window.alert("Number on natuke suurem!");
 } else if (vastus > answer) {
- alert("Number on natuke väike!");
+ window.alert("Number on natuke väiksem!");
 } else {
-alert("Sisesta arv!");
+window.alert("Sisesta arv!");
 }
 
 console.log(answer)
