@@ -10,6 +10,8 @@ setTimeout(function(){
 }, 3000);
 */
 
+const { useCallback } = require("react");
+
 /*
 const numbers = [1, 2, 3, 4, 5, 6];
 const squares = numbers.map(square);
@@ -38,3 +40,23 @@ function square(element){
 }
 */
 
+
+
+
+/*
+const hello = (name, age) => {console.log(`Hello ${name}`);
+                         console.log(`You are ${age} years old`)}
+
+
+hello("Bro, 25");
+*/
+
+/*
+setTimeout(useCallback, 3000);
+
+function hello(){
+    console.log("Hello")
+}
+    */
+
+setTimeout
