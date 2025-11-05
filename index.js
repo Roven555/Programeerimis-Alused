@@ -1,29 +1,40 @@
-// number guess
-
-
-const minNum = 80;
-const maxNum = 90;
-const answer = Math.floor(Math.random() * (maxNum - minNum +1)) + minNum;
-let katsed = 5
-
-while
-
-
-let vastus = window.prompt("Arva number vahemikus 80-90. Sul on 5 katset.")
-
-
-if(vastus = answer) {
- window.alert("Arvasid ära");
-} else if (vastus < answer) {
-window.alert("Number on natuke suurem!");
-} else if (vastus > answer) {
- window.alert("Number on natuke väiksem!");
-} else {
-window.alert("Sisesta arv!");
+/*
+function hello(){
+    console.log("Hello")
 }
 
-console.log(answer)
- 
 
 
+setTimeout(function(){
+    console.log("hello");
+}, 3000);
+*/
+
+/*
+const numbers = [1, 2, 3, 4, 5, 6];
+const squares = numbers.map(square);
+
+console.log(squares);
+
+function square(element){
+    return Math.pow(element, 2);
+}
+  */  
+
+/*
+const numbers = [1, 2, 3, 4, 5, 6];
+const squares = numbers.map(function(element){
+    return Math.pow(element, 2);
+
+});
+const cubes = numbers.map(function cube (element){
+    return Math.pow(element, 3);
+});
+
+console.log(squares);
+
+function square(element){
+    return Math.pow(element, 2);
+}
+*/
 
